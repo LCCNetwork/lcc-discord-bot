@@ -1,0 +1,26 @@
+{
+  "name": "lcc-discord-bot",
+  "version": "0.1.0",
+  "description": "A discord bot built for the LCC discord channel",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LCCNetwork/lcc-discord-bot.git"
+  },
+  "author": "LCC Network",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LCCNetwork/lcc-discord-bot/issues"
+  },
+  "homepage": "https://github.com/LCCNetwork/lcc-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "erlpack": "github:hammerandchisel/erlpack#master",
+    "node-opus": "^0.2.4",
+    "opusscript": "0.0.1",
+    "uws": "^0.12.0"
+  }
+}
